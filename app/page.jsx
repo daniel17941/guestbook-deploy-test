@@ -31,6 +31,7 @@ export default function Home() {
     <main>
       <h1>Guestbook Deploy Test</h1>
       <p>The form below writes to a backend. The backend stores data in Vercel Blob.</p>
+      <p><strong>Push-to-deploy is active:</strong> this sentence arrived via a git push, with no manual deploy step.</p>
       <form onSubmit={submit}>
         <input
           value={text}
