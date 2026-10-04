@@ -1,0 +1,6 @@
+{
+  "id": "roman-numerals",
+  "requirement": "Create a Python module roman.py with to_roman(n) for 1..3999 and from_roman(s) that inverts it. from_roman must raise ValueError for invalid numerals (e.g. 'IIII', 'VX', ''). Stdlib only.",
+  "max_attempts": 3,
+  "max_steps": 4
+}
